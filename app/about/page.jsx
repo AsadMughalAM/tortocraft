@@ -7,7 +7,7 @@ import { Clock, Heart, Zap } from "lucide-react";
 import CTA from "@/components/CTA/CTA";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import FAQ from "@/components/Faq/faq";
+import Faq from "@/components/Faq/Faq";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -171,7 +171,7 @@ export default function About() {
         </Swiper>
       </section>
 
-      <FAQ/>
+      <Faq/>
 
       {/* 5. CTA Section */}
     <CTA/>

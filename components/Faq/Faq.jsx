@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-export default function FAQ() {
+export default function Faq() {
   const faqs = [
     {
       question: "How can I track my order?",
