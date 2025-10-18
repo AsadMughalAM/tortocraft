@@ -54,7 +54,7 @@ export default function ShopCollection() {
   return (
     <main className="bg-[#f5f3ee] min-h-screen text-[#3b2f2f]">
       {/* 🌟 Hero Section */}
-      <section className="bg-[#3b2f2f] text-[#f5f3ee] py-20 md:py-32 px-6 text-center">
+      <section className="bg-[#3b2f2f] text-[#f5f3ee] py-32 px-6 text-center h-100">
         <h1 className="uppercase tracking-widest text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-tight mb-4">
           Curated for{" "}
           <span className="text-[#c19a6b] font-medium">You</span>

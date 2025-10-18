@@ -24,7 +24,7 @@ export default async function Collection() {
               title={item.title}
               description={item.description}
               imageUrl={item.bannerImage?.url}
-              href={`/shop/${item.slug}`}
+              href={`/shop`}
               priority={index < 3}
               
             />
