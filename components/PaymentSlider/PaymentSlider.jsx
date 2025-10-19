@@ -28,12 +28,12 @@ const paymentMethods = [
 
 export default function PaymentSlider() {
   return (
-    <div className="p-10">
-      <h1 className=" text-center uppercase tracking-widest text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
+    <div className="pt-10">
+      <h1 className=" text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12">
         Payment <span className="text-[#c19a6b] font-medium">Methods</span>
       </h1>
 
-      <div className="w-full max-w-4xl mx-auto py-10">
+      <div className="w-full max-w-4xl mx-auto py-10 px-10">
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}

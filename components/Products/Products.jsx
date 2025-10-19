@@ -10,12 +10,12 @@ export default async function ProductGrid() {
   return (
     <main className="bg-[#f5f3ee] min-h-screen text-[#3b2f2f]">
       <header className="py-16 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold   tracking-wide uppercase">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center ">
           Latest <span className="text-[#c19a6b] font-extrabold">Products</span>
         </h1>
       </header>
 
-      <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-12 xl:px-20 max-w-7xl mx-auto pb-16">
+      <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-12 xl:px-20 max-w-7xl mx-auto md:pb-10">
         {products.length > 0 ? (
           products.map((product, index) => (
             <Card

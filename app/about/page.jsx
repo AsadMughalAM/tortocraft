@@ -71,7 +71,7 @@ export default function About() {
       <section className="py-24 px-6 md:px-20 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold mb-8 border-b pb-3 border-gray-300">
-            Our Heritage of Craftsmanship
+            Our Heritage of <span className="text-[#c19a6b]">Craftsmanship</span>
           </h2>
           <p className="mb-4 text-lg text-justify leading-relaxed">
             Founded on the principle that fashion should be as unique as the wearer, TORTOCRAFT began in 2025 with a single tailor's commitment to <b className="text-[#c19a6b]">**uncompromising quality**</b>. We reject fast fashion in favor of creating enduring garments that respect both the wearer and the planet.

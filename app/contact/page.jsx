@@ -85,7 +85,7 @@ export default function Contact() {
         {/* Contact Info */}
         <div className="lg:col-span-2 space-y-8">
           <h2 className="text-3xl font-semibold border-b pb-3 border-gray-300">
-            Reach Out to Our Team
+            Reach Out to <span className="text-[#c19a6b]">Our Team</span> 
           </h2>
 
           <div className="space-y-6">
@@ -280,7 +280,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full py-3 bg-[#c19a6b] text-[#3b2f2f] font-bold uppercase rounded-sm shadow-lg hover:bg-[#b08a5f] disabled:bg-gray-400 flex justify-center items-center"
+              className="w-full py-3 bg-[#c19a6b] text-[#3b2f2f] font-bold uppercase rounded-sm shadow-lg hover:bg-[#b08a5f] disabled:bg-[#3b2f2f] disabled:text-gray-50 flex justify-center items-center"
             >
               {isSubmitting ? (
                 <>
