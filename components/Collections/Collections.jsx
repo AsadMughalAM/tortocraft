@@ -3,6 +3,7 @@ import client from "@/lib/apollo";
 import { get_Collections } from "./query";
 import Card from "../../components/Card";
 import Link from "next/link";
+export const dynamic = "force-dynamic";
 export default async function Collection() {
   const { data } = await client.query({ query: get_Collections,  fetchPolicy: "no-cache", });
   const collections = data?.collectionCollection?.items || [];

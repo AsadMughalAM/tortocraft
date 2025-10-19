@@ -1,10 +1,12 @@
+export const dynamic = "force-dynamic";
+
 import React from "react";
 import client from "@/lib/apollo";
 import { Get_Products } from "./query";
 import Card from "../../components/Card";
 
 export default async function ProductGrid() {
-  const { data } = await client.query({ query: Get_Products ,fetchPolicy: "no-cache"});
+  const { data } = await client.query({ query: Get_Products, fetchPolicy: "no-cache" });
   const products = data?.productCollection?.items || [];
 
   return (
