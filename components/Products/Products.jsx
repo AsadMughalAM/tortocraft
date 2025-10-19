@@ -4,7 +4,7 @@ import { Get_Products } from "./query";
 import Card from "../../components/Card";
 
 export default async function ProductGrid() {
-  const { data } = await client.query({ query: Get_Products });
+  const { data } = await client.query({ query: Get_Products ,fetchPolicy: "no-cache"});
   const products = data?.productCollection?.items || [];
 
   return (

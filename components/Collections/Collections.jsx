@@ -4,7 +4,7 @@ import { get_Collections } from "./query";
 import Card from "../../components/Card";
 import Link from "next/link";
 export default async function Collection() {
-  const { data } = await client.query({ query: get_Collections });
+  const { data } = await client.query({ query: get_Collections,  fetchPolicy: "no-cache", });
   const collections = data?.collectionCollection?.items || [];
 
   return (
